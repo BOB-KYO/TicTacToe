@@ -1,0 +1,12 @@
+@startuml
+annotation java.lang.Override
+class com.mycompany.tictactoe.Main
+class com.mycompany.tictactoe.TicTacToe
+class java.util.logging.Level
+class java.util.logging.Logger
+interface com.mycompany.tictactoe.ActionListener
+com.mycompany.tictactoe.TicTacToe ..> java.lang.Override
+com.mycompany.tictactoe.TicTacToe ..> java.util.logging.Level
+com.mycompany.tictactoe.TicTacToe ..> java.util.logging.Logger
+com.mycompany.tictactoe.TicTacToe --|> com.mycompany.tictactoe.ActionListener
+@enduml
